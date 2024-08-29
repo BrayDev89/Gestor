@@ -1,0 +1,62 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    height: 100vh;
+}
+
+#sidebar h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.section {
+    display: none;
+}
+
+.section.active {
+    display: block;
+}
+
+#password-strength {
+    margin-top: 10px;
+}
+
+.progress-bar {
+    transition: width 0.4s;
+}
+
+/* Estilos para el tema oscuro */
+.dark-theme {
+    background-color: #212529;
+    color: white;
+}
+
+.dark-theme #sidebar {
+    background-color: #343a40;
+}
+
+.dark-theme #content {
+    background-color: #343a40;
+}
+
+#profile-indicator {
+    background-color: #495057;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#current-profile {
+    font-weight: bold;
+}
